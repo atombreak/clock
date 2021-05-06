@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: comis sans MS;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  background-color: #333;
+  align-items: center;
+}
+
+.clock {
+  width:100%;
+  height:40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.clock span {
+  font-size: 50px;
+  font-weight:bolder;
+  margin-left:5px;
+  width: 80px;
+  height: 80px;
+  border-radius:10px;
+  border:2px hotpink solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: snow;
+}
+.clock p{
+  font-size:55px;
+  margin-left: 5px;
+}
